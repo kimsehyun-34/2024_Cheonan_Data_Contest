@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>천안 관광추천</title>
+
+    <link rel="stylesheet" href="/public/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poor+Story&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <div class="header">
+        <img class="header_img1" src = "/public/IMG/image.png">
+    </div>
+
+    <div class="box3">
+
+        
+        <div class="min"><br>더 정확한 분석을 할수있도록 선택해 주세요</div>
+    
+        <div class="text-center">
+
+            <div class="position-relative m-4">
+                <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1px;">
+                <div class="progress-bar" style="width: 100%"></div>
+                </div>
+                <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">1</button>
+                <button type="button" class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">2</button>
+                <button type="button" class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">3</button>
+            </div>
+
+            <hr>
+            <form method="post" action="/fr">
+                <table class="table">
+                    <thead class="text-center">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">빵류</th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="단팥빵">
+                                    <div class="br_text">단팥빵</div>
+                                    <img class="br_img" src="../IMG/빵/단팥.png">
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="우유식빵">
+                                    우유식빵
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="밤식빵">
+                                    밤식빵
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="소금빵">
+                                    소금빵
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="크로와상">
+                                    크로와상
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="공갈빵">
+                                    공갈빵
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="치아바타">
+                                    치아바타
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="생크림빵">
+                                    생크림빵
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="마늘바게트">
+                                    마늘바게트
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="메론빵">
+                                    메론빵
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="앙버터">
+                                    앙버터
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="크림빵">
+                                    크림빵
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="야채빵">
+                                    야채빵
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="찰떡빵">
+                                    찰떡빵
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="모닝빵">
+                                    모닝빵
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="사라다빵">
+                                    사라다빵
+                                </label>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead class="text-center">
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">바게트 & 특수빵</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="단팥빵">
+                                    바게트
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="우유식빵">
+                                    명란소금빵
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="밤식빵">
+                                    명란바게트
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="밤식빵">
+                                    핫도그
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="밤식빵">
+                                    도넛
+                                </label>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead class="text-center">
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">과자류 & 페이스트리</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="단팥빵">
+                                    호두과자
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="우유식빵">
+                                    튀김호두과자
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="밤식빵">
+                                    꽈배기
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="밤식빵">
+                                    돌가마 만주
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="밤식빵">
+                                    에그타르트
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="밤식빵">
+                                    호두파이
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="밤식빵">
+                                    레몬타르트
+                                </label>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead class="text-center">
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">디저트</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="단팥빵">
+                                    팥빙수
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="우유식빵">
+                                    샌드위치
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" class="form-check-input" name="Cat" value="밤식빵">
+                                    케이크
+                                </label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <label>
+                    <button class="btn btn-primary" type="submit" value="Submit">검색</button>
+                </label>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
