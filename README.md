@@ -7,7 +7,7 @@
 # 24.08.24 공모전 마지막 작업
 * 프리젠테이션 자료 100% 완료
   
-### [최종 PPT 다운로드][http://www.google.co.kr](https://docs.google.com/presentation/d/1AcPb9M5Ll55itwGKwMrHolRqRTu_a1iM/edit?usp=sharing&ouid=104062170234915444393&rtpof=true&sd=true).
+### [최종 PPT 다운로드] (https://docs.google.com/presentation/d/1AcPb9M5Ll55itwGKwMrHolRqRTu_a1iM/edit?usp=sharing&ouid=104062170234915444393&rtpof=true&sd=true)
 ---------------------------------
 ---------------------------------
 # 24.08.22 ~ 24.08.23공모전 11차 회의 & 보고
