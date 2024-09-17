@@ -1,3 +1,11 @@
+<div>
+  <img style="float:left" src="https://img.shields.io/badge/R-276DC3?style=flat-square&amp;logo=r&amp;ogoColor=white" width="auto" height="40" />
+  <img style="float:left" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" width="auto" height="40" />
+  <img style="float:left" src="https://img.shields.io/badge/QGIS-589632?style=flat-square&amp;logo=qgis&amp;logoColor=white" width="auto" height="40" />
+  <img style="float:left" src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&amp;logo=google colab&amp;logoColor=white" width="auto" height="40" />
+  <img style="float:left" src="https://img.shields.io/badge/Excel-217346?style=flat-square&amp;logo=microsoft excel&amp;logoColor=white" width="auto" height="40" />
+</div>
+
 # 2024 Cheonan Data Contest Exhibit
 - 2024_2nd_천안 데이터 공모전_클라우드
 - 김민수, 김세현, 이혜준, 이지우
